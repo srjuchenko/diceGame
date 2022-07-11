@@ -3,12 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
 body {
@@ -168,4 +167,10 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 30%;
+  }
 }
