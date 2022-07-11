@@ -9,6 +9,7 @@ const initGame = function () {
   currScore1El.textContent = 0;
 
   diceEl.classList.add("hidden");
+
   currentScore = 0;
   activePlayer = 0;
   scores[0] = 0;
@@ -84,6 +85,7 @@ const disableBtns = function () {
   btnHoldEl.classList.add("hidden");
   btnRollEl.classList.add("hidden");
 };
+
 //****************************** */
 // Selecting elements and variables
 //****************************** */
@@ -128,7 +130,7 @@ btnHoldEl.addEventListener("click", function () {
   updatePlayerScore();
   diceEl.classList.toggle("hidden");
   // 2. check if players score is >= 100
-  if (scores[activePlayer] >= 100) {
+  if (scores[activePlayer] >= 10) {
     showTheWinner();
     disableBtns();
   } else {
