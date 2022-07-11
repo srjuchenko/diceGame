@@ -187,26 +187,12 @@ main {
   }
 
   .player {
-    padding: 7rem;
   }
 
   .name {
     margin-top: 10rem;
     font-size: 15rem;
     font-weight: 700;
-  }
-
-  .btn--new {
-    font-size: 3rem;
-    padding: 3.2rem 6.4rem;
-  }
-  .btn--roll {
-    font-size: 3rem;
-    padding: 3.2rem 6.4rem;
-  }
-  .btn--hold {
-    font-size: 3rem;
-    padding: 3.2rem 6.4rem;
   }
 
   .dice {
@@ -216,7 +202,6 @@ main {
 
   .current {
     width: 100%;
-    padding: rem;
     font-size: 5rem;
   }
 
@@ -228,7 +213,6 @@ main {
   }
 
   .current-score {
-    font-size: 8rem;
   }
 
   .name {
