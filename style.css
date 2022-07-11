@@ -171,6 +171,11 @@ main {
 
 @media (max-width: 425px) {
   html {
-    font-size: 30%;
+    font-size: 27%;
+  }
+
+  main {
+    width: 100vw;
+    height: 60vh;
   }
 }
