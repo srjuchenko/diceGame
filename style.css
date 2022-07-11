@@ -169,13 +169,57 @@ main {
   display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   html {
-    font-size: 27%;
+    font-size: 35%;
   }
 
   main {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
+  }
+
+  .player {
+    padding: 7rem 5rem;
+    width: 50vw;
+  }
+
+  .name {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+
+  .current {
+    width: 30vw;
+  }
+
+  .current-label {
+    font-size: 3rem;
+  }
+
+  .btn--new {
+    padding: 1.4rem 2.4rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    top: 1rem;
+  }
+  .btn--roll {
+    padding: 1.4rem 3.2rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    top: 25rem;
+  }
+  .btn--hold {
+    padding: 1.4rem 3.2rem;
+    font-size: 2.6rem;
+    top: 33rem;
+    font-weight: bold;
+  }
+
+  .dice {
+    height: 9rem;
+    top: 14rem;
   }
 }

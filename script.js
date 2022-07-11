@@ -130,7 +130,7 @@ btnHoldEl.addEventListener("click", function () {
   updatePlayerScore();
   diceEl.classList.toggle("hidden");
   // 2. check if players score is >= 100
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     showTheWinner();
     disableBtns();
   } else {
