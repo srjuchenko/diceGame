@@ -186,9 +186,6 @@ main {
     height: 60%;
   }
 
-  .player {
-  }
-
   .name {
     margin-top: 10rem;
     font-size: 15rem;
@@ -197,22 +194,11 @@ main {
 
   .dice {
     height: 15rem;
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
 
   .current {
     width: 100%;
     font-size: 5rem;
-  }
-
-  .current-label {
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    color: #ddd;
-  }
-
-  .current-score {
   }
 
   .name {
