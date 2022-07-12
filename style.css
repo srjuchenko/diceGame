@@ -169,6 +169,7 @@ main {
   display: none;
 }
 
+/* mobile */
 @media (max-width: 600px) {
   html {
     font-size: 35%;
